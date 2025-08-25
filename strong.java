@@ -27,11 +27,12 @@ public class strong {
     }
 
     public static void main(String[] args) {
-        System.out.println("Strong numbers between 1 and 5000:");
-        for (int i = 1; i <= 5000; i++) {
+        System.out.println("Strong numbers between 1 and 500:");
+        for (int i = 1; i <= 500; i++) {
             if (isStrong(i)) {
                 System.out.println(i);
             }
         }
     }
+
 }
